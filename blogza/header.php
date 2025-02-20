@@ -28,9 +28,9 @@
         if ( has_header_image() ) {
           $background_image = get_header_image();
         } ?>
-      <div class="bs-header-main d-none d-lg-block" <?php if ( has_header_image() ) { ?> style="background-image:url('<?php echo esc_url($background_image);?>')"<?php } ?>>
+      <div class="bs-header-main" <?php if ( has_header_image() ) { ?> style="background-image:url('<?php echo esc_url($background_image);?>')"<?php } ?>>
         <div class="inner" <?php if ( has_header_image() ) { ?> style="background-color:#00000040;"<?php } ?>>
-          <div class="container">
+          <div class="container d-none d-lg-block">
             <div class="row align-items-center">
             
               <div class="navbar-header col-md-6 text-md-start d-none d-lg-block">

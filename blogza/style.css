@@ -4,10 +4,10 @@ Theme URI: https://themeansar.com/free-themes/blogza-free-wordpress-theme/
 Author: Themeansar
 Author URI: https://themeansar.com
 Description: Blogza is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Blogza is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Blogza is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/blogus/blogza/ and documentation at https://docs.themeansar.com/docs/blogus/
-Version: 0.6
-Requires PHP: 7.0
+Version: 0.7
+Requires PHP: 7.4
 Requires at least: 5.4
-Tested up to: 6.6
+Tested up to: 6.7
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Template: blogus
@@ -458,5 +458,10 @@ figure a {
     }
     .bs-blog-post .bs-blog-meta {
         justify-content: start;
+    }
+}
+@media screen and (max-width: 480px) {
+    .bs-headthree .bs-header-main .inner{
+        min-height: 100px;
     }
 }
